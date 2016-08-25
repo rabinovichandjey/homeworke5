@@ -1,0 +1,7 @@
+overflow: hidden; «ачиска границ внешн€€ работает только с position: relative;вместе
+position: relative;ќпредел€ет радитель
+.logo .clearfix::after {
+  content: '';
+  clear: both; —оздает пустой блок дл€ зачистки границ всем у кого прописан силектор clearfix:
+  
+clear: both;внешн€€ зачистка границ
